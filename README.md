@@ -1,6 +1,8 @@
-# Nextcloud Integration
+# Nextcloud Backup
 
-Custom Frappe App for Nextcloud Backup
+Custom Frappe App for backups to your nextcloud instance.
+
+Also works with other WebDAV based systems like owncloud
 
 ### Features
 This app lets you take backup of your database, config and files to your Nextcloud instance. You can configure it to take daily or weekly backups.
@@ -9,8 +11,8 @@ This app lets you take backup of your database, config and files to your Nextclo
 On your site you can download and install *nextcloud-integration* app using
 
 ```
-bench get-app https://github.com/frappe/nextcloud-integration.git
-bench --site {site_name} install-app nextcloud_integration
+bench get-app https://github.com/frappe/nextcloud-backup.git
+bench --site {site_name} install-app nextcloud_backup
 ```
 
 ### Configuration
